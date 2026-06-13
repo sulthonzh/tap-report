@@ -1,0 +1,35 @@
+{
+  "name": "tap-report",
+  "version": "1.0.0",
+  "description": "Parse TAP (Test Anything Protocol) output into clean summaries — pass/fail counts, timing, failure details, and CI integration.",
+  "main": "index.js",
+  "bin": {
+    "tap-report": "./cli.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "tap",
+    "test-anything-protocol",
+    "tap-parser",
+    "test",
+    "reporter",
+    "ci",
+    "summary"
+  ],
+  "license": "MIT",
+  "author": "sulthonzh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sulthonzh/tap-report"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "README.md"
+  ]
+}
