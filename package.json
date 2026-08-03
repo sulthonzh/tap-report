@@ -31,5 +31,8 @@
     "index.js",
     "cli.js",
     "README.md"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
